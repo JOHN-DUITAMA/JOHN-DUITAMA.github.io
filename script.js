@@ -54,7 +54,7 @@ function encriptarTexto(mensaje){
         }
     }
     return textoFinal;
-
+    
 }
 
 function desencriptarTexto(mensaje){
@@ -90,6 +90,7 @@ function desencriptarTexto(mensaje){
     }
 
     return textoFinal;
+    
 
 }
 
