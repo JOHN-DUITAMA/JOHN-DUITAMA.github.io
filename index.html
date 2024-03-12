@@ -10,13 +10,27 @@
     <title>Encriptador challenge</title>
 </head>
 <body>
+
+    <div class="resolucion">
+        <div class="desktop">
+
+    </div>
+ 
+    <div class="tablet">
+    </div>
+
+    <div class="movil">
+    </div>
+
+
+
     <header>
         <img class="logo" src="Imagenes/Logo.svg" alt="logo">
     </header>
     <main>
         <section class="seccion1">
             <div class="contenedorcajatexto">
-                <textarea placeholder="Ingrese el texto aqui" class="cajatexto"></textarea>
+                <textarea placeholder="Ingrese el texto aqui" class="cajatexto" oninput="validarTexto(this)"></textarea>
             </div>
             <div class="alerta">
                 <img src="Imagenes/alerta.svg" alt="alerta">
@@ -32,7 +46,7 @@
                 <img src="Imagenes/Muñeco.svg" alt="muñico">
             </div>
             <div class="contenedor-parrafo">
-                <h3>Nigún mensaje fue <br> encontrado</h3>
+                <h3>Ningún mensaje fue <br> encontrado</h3>
                 <p>Ingresa el texto que desees encriptar o <br> desencriptar.</p>
             </div>
             <div class="contenedor-copiar">
@@ -41,9 +55,12 @@
             <div class="contenedor-resultado">
                 <p class="texto-resultado"></p>
             </div>
-
         </section>
     </main>
     <script src="script.js"></script>
+    <script>
+       
+      
+    </script>
 </body>
 </html>
